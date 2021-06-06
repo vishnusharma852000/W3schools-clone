@@ -2,6 +2,11 @@
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
+    font-weight: 700;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 /* navbar css start */
@@ -17,24 +22,27 @@
     display: flex;
     width: 37%;
 }
-.leftnav i {
-    padding: 3px;
-}
 .logo {
-    width: 80px;
-    height: 80px;
+    width: 75px;
+    height: 75px;
     margin: 0px 4px;
 }
 .leftnav ul li {
     display: inline-block;
     list-style: none;
-    margin: 25px 0px;
+    padding: 30px 15px;
 }
 .leftnav ul li a {
     color: black;
     font-size: 18px;
     text-decoration: none;
-    padding: 20px;
+}
+.leftnav ul li:hover {
+    background-color: #04aa6d;
+    cursor: pointer;
+}
+.leftnav ul li:hover a {
+    color: white;
 }
 .rightnav {
     display: flex;
@@ -68,10 +76,12 @@
     border: 2px solid darkgreen;
     background-color: darkgreen;
 }
-.icons i {
-    padding: 5px;
+.icon {
     font-size: 20px;
     padding: 0px 15px;
+}
+svg {
+    padding: 0px 10px;
 }
 
 /* navbar css end */
@@ -129,6 +139,9 @@
     justify-content: center;
     align-items: center;
 }
+
+/* main page program example css start  -- common for all languages part*/
+
 .htmlprog {
     width: 550px;
     height: 380px;
@@ -136,6 +149,28 @@
     border: 2px solid #e7e9eb;
     border-radius: 8px;
 }
+.programheading {
+    font-size: 22px;
+    margin: 23px 300px 20px 16px;
+}
+.example {
+    width: 520px;
+    height: 235px;
+    margin: auto;
+    background-color: white;
+    border-left: 5px solid #04aa6d;
+}
+.try {
+    font-size: 16px;
+    border: 2px solid #04aa6d;
+    background-color: #04aa6d;
+    color: white;
+    border-radius: 40px;
+    padding: 10px 40px;
+    margin: 16px 16px;
+}
+
+/* main page program example css end  */
 
 /* css */
 
@@ -362,6 +397,8 @@
 
 /* mid of w3schoolcontentmid */
 
+/* 6big content blocks */
+
 .mid {
     background-color: #282a35;
 }
@@ -430,9 +467,13 @@
     margin: 40px 90px 40px 50px;
 }
 
+/* small elements css */
+
 .elements {
     width: 90%;
-    margin: 40px auto;
+    margin: auto;
+    margin-top: 40px;
+    padding-bottom: 30px;
 }
 .smallcolumns1 {
     width: 100%;
@@ -452,11 +493,13 @@
     height: 110px;
     border-radius: 5px;
     margin: 20px auto;
+    cursor: pointer;
 }
 .chash {
     background-color: lightpink;
     border: 2px solid lightpink;
 }
+
 .R {
     background-color: rgb(201, 201, 101);
     border: 2px solid rgb(201, 201, 101);
@@ -563,6 +606,7 @@
     height: 110px;
     border-radius: 5px;
     margin: 20px auto;
+    cursor: pointer;
 }
 .machinelearn {
     background-color: lightpink;
@@ -575,10 +619,342 @@
 .stats {
     background-color: lightskyblue;
     border: 2px solid lightskyblue;
-    margin-bottom: 60px;
 }
 .datasci {
     background-color: rgb(201, 201, 101);
-    border: 2px solid rgb(201, 201, 101);
-    margin-bottom: 60px;
+    border: 2px solid rgb(238, 238, 233);
+}
+
+/* color picker css */
+
+.colorpic {
+    background-color: #e6e6e6;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.colorheading {
+    text-align: center;
+}
+.colorheading h1 {
+    font-size: 55px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding: 15px;
+}
+.colorheading p {
+    font-size: 18px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding: 10px;
+}
+.colorheading img {
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+}
+
+/* code game css */
+
+.gamingpart {
+    padding: 25px;
+    text-align: center;
+    background-color: lightskyblue;
+}
+.gamingpart h1 {
+    font-family: "Courier New", cursive;
+    padding-top: 60px;
+    padding-bottom: 8px;
+}
+.gamingpart h2 {
+    font-family: "Courier New", cursive;
+    padding-bottom: 30px;
+}
+.gamebutton {
+    font-size: 18px;
+    border: 2px solid #282a35;
+    background-color: #282a35;
+    color: white;
+    border-radius: 40px;
+    padding: 10px 40px;
+    margin: 30px 10px;
+}
+
+/* Exercise block css */
+
+.exerciseblock {
+    background-color: #282a35;
+    padding: 40px;
+    color: white;
+    text-align: center;
+}
+.exerciseblock h1 {
+    font-size: 35px;
+    padding-top: 40px;
+}
+.exerciseblock h2 {
+    font-size: 18px;
+    padding: 20px;
+}
+.btn-ex {
+    font-size: 16px;
+    border: 2px solid #04aa6d;
+    background-color: #04aa6d;
+    color: white;
+    border-radius: 5px;
+    margin: 12px 10px;
+}
+.bigbtn {
+    padding: 20px 50px;
+}
+.smallbtn {
+    padding: 20px 40px;
+}
+
+/* web templates css */
+
+.templates {
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    padding: 65px;
+}
+.templates h1 {
+    font-size: 40px;
+    padding: 10px;
+}
+.templates p {
+    font-size: 16px;
+    color: #282a35;
+    padding: 10px;
+}
+.templates p span {
+    color: black;
+    font-weight: bolder;
+}
+.templates img {
+    width: 1000px;
+    height: 400px;
+}
+.templateimage {
+    margin: 25px;
+}
+.templatebtn {
+    font-size: 16px;
+    border: 2px solid #282a35;
+    background-color: #282a35;
+    color: white;
+    border-radius: 40px;
+    padding: 20px 300px;
+    margin: 10px;
+}
+
+/* get started css */
+
+.getstart {
+    background-color: #282a35;
+    padding: 30px;
+}
+.getstart h1 {
+    font-size: 60px;
+    color: #ffc0c7;
+    padding: 35px;
+}
+.getstart h2 {
+    font-size: 45px;
+    color: #ffc0c7;
+    padding: 30px;
+}
+.startbtn {
+    font-size: 16px;
+    border: 2px solid #04aa6d;
+    background-color: #04aa6d;
+    color: white;
+    border-radius: 40px;
+    padding: 20px 60px;
+    margin: 25px;
+}
+
+/* how to section css */
+
+.howtosection {
+    padding: 55px;
+}
+.howtosection h1 {
+    font-size: 40px;
+    padding: 10px;
+    color: black;
+    text-align: center;
+}
+.howtosection h2 {
+    font-size: 20px;
+    color: #3a3a3a;
+    padding: 10px;
+    text-align: center;
+}
+.learnhowbtn {
+    text-align: center;
+}
+
+.howtobtn {
+    padding: 20px 300px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(41, 40, 40);
+    margin-top: 35px;
+    border: 2px solid rgb(41, 40, 40);
+    border-radius: 40px;
+    text-align: center;
+}
+.sec {
+    padding: 15px;
+}
+.frame {
+    display: flex;
+    width: 1100px;
+    margin: auto;
+}
+.frame1 {
+    background-color: white;
+    width: 500px;
+    height: 320px;
+    border: 10px solid gray;
+    overflow: scroll;
+    display: flex;
+    margin: auto;
+}
+.sidenav {
+    width: 130px;
+    height: 300px;
+    background-color: #111;
+    color: #818181;
+    /* position: fixed; */
+}
+.sidenav ul {
+    list-style: none;
+    padding: 10px 0px;
+    margin: 0px;
+}
+.sidenav ul li {
+    padding: 10px 20px;
+}
+.sidenav ul a {
+    font-size: 18px;
+    text-decoration: none;
+}
+.sidenav ul a:hover {
+    color: white;
+}
+.fullsidebar {
+    width: 370px;
+    margin-left: 10px;
+}
+.frame2 {
+    background-color: white;
+    width: 500px;
+    height: 320px;
+    border: 10px solid gray;
+    overflow: scroll;
+    display: flex;
+    margin: auto;
+}
+.autosidenav {
+    width: 130px;
+    margin: 15px 10px;
+    /* position: fixed; */
+    color: #2196f3;
+}
+.autosidenav ul {
+    list-style: none;
+    padding: 10px 0px;
+    margin: 0px;
+    background-color: lightgray;
+}
+.autosidenav ul li {
+    padding: 10px 20px;
+}
+.autosidenav ul a {
+    font-size: 18px;
+    text-decoration: none;
+}
+.autosidenav ul a:hover {
+    color: black;
+}
+.autosidebar {
+    width: 370px;
+    margin-left: 10px;
+}
+
+/* footer css */
+
+.footer {
+    padding: 20px 0px;
+    background-color: #282a35;
+}
+.footerbutton {
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: black;
+    margin: 2px 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.divblock1 {
+    width: 96%;
+    display: flex;
+    padding: 30px 25px 12px 25px;
+}
+.content1 {
+    width: 85%;
+}
+.content2 {
+    width: 15%;
+    padding: 10px 0px;
+    text-align: right;
+}
+.content2 a {
+    letter-spacing: 4px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 13.5px;
+}
+.content2 span {
+    color: white;
+    padding: 4px;
+}
+.divblock2 {
+    margin: 15px;
+}
+.divblock3 {
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 13.5px;
+    font-weight: bold;
+}
+.social {
+    font-size: 20px;
+    text-align: right;
+    padding: 0px 15px;
+    color: white;
+}
+.divblock4 {
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+    color: white;
+}
+.divblock5 {
+    text-align: center;
+    padding: 15px;
+}
+.footerbtn {
+    font-size: 15px;
+    border: 2px solid #04aa6d;
+    background-color: #04aa6d;
+    color: white;
+    border-radius: 40px;
+    padding: 15px 300px;
+    margin: 8px 8px;
 }

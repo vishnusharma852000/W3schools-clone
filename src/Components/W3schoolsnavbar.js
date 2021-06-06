@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import w3schools from "../img/w3schools.jpg";
 
@@ -14,17 +15,20 @@ export default function W3schoolsnavbar() {
                     <ul>
                         <li>
                             <a href="#tutorials">
-                                Tutorials<i class="fas fa-caret-down"></i>
+                                Tutorials
+                                <FontAwesomeIcon icon="caret-down" />
                             </a>
                         </li>
                         <li>
                             <a href="#references">
-                                References<i class="fas fa-caret-down"></i>
+                                References
+                                <FontAwesomeIcon icon="caret-down" />
                             </a>
                         </li>
                         <li>
                             <a href="#exercises">
-                                Exercises<i class="fas fa-caret-down"></i>
+                                Exercises
+                                <FontAwesomeIcon icon="caret-down" />
                             </a>
                         </li>
                     </ul>
@@ -37,10 +41,10 @@ export default function W3schoolsnavbar() {
                 {/* right navbar */}
 
                 <div class="rightnav">
-                    <div class="icons">
-                        <i class="fas fa-toggle-on"></i>
-                        <i class="fas fa-globe-asia"></i>
-                        <i class="fas fa-search"></i>
+                    <div class="icon">
+                        <FontAwesomeIcon icon="circle" />
+                        <FontAwesomeIcon icon="globe-asia" />
+                        <FontAwesomeIcon icon="search" />
                     </div>
                     <div class="btn">
                         <button class="btn-pv">Paid Courses</button>

@@ -14,7 +14,11 @@ export default function W3schoolscontent() {
                     <button className="refhtml">HTML Reference</button>
                 </div>
                 <div className="rightfirst">
-                    <div className="htmlprog"></div>
+                    <div className="htmlprog">
+                        <h1 className="programheading">HTML Example:</h1>
+                        <div className="example"></div>
+                        <button className="try">Try Yourself</button>
+                    </div>
                 </div>
             </div>
 
@@ -29,7 +33,11 @@ export default function W3schoolscontent() {
                     <button className="refcss">CSS Reference</button>
                 </div>
                 <div className="secondright">
-                    <div className="cssprog"></div>
+                    <div className="cssprog">
+                        <h1 className="programheading">CSS Example:</h1>
+                        <div className="example"></div>
+                        <button className="try">Try Yourself</button>
+                    </div>
                 </div>
             </div>
 
@@ -44,7 +52,11 @@ export default function W3schoolscontent() {
                     <button className="refjs">Javascript Reference</button>
                 </div>
                 <div className="thirdright">
-                    <div className="jsprog"></div>
+                    <div className="jsprog">
+                        <h1 className="programheading">Javascript Example:</h1>
+                        <div className="example"></div>
+                        <button className="try">Try Yourself</button>
+                    </div>
                 </div>
             </div>
 
@@ -59,7 +71,11 @@ export default function W3schoolscontent() {
                     <button className="refpy">PYTHON Reference</button>
                 </div>
                 <div className="fourthright">
-                    <div className="pyprog"></div>
+                    <div className="pyprog">
+                        <h1 className="programheading">Python Example:</h1>
+                        <div className="example"></div>
+                        <button className="try">Try Yourself</button>
+                    </div>
                 </div>
             </div>
 
@@ -74,7 +90,11 @@ export default function W3schoolscontent() {
                     <button className="refsql">SQL Reference</button>
                 </div>
                 <div className="fifthright">
-                    <div className="sqlprog"></div>
+                    <div className="sqlprog">
+                        <h1 className="programheading">SQL Example:</h1>
+                        <div className="example"></div>
+                        <button className="try">Try Yourself</button>
+                    </div>
                 </div>
             </div>
         </div>
