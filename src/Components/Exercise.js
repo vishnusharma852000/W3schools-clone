@@ -7,20 +7,68 @@ export default function Exercise() {
                 <h1>Exercises</h1>
                 <h2>Test yourself with exercises</h2>
                 <div>
-                    <button className="bigbtn btn-ex">HTML Exercise</button>
-                    <button className="bigbtn btn-ex">CSS Exercise</button>
-                    <button className="bigbtn btn-ex">
+                    <a
+                        className="bigbtn btn-ex"
+                        href="https://www.w3schools.com/html/html_exercises.asp"
+                    >
+                        HTML Exercise
+                    </a>
+                    <a
+                        className="bigbtn btn-ex"
+                        href="https://www.w3schools.com/css/css_exercises.asp"
+                    >
+                        CSS Exercise
+                    </a>
+                    <a
+                        className="bigbtn btn-ex"
+                        href="https://www.w3schools.com/js/js_exercises.asp"
+                    >
                         Javascript Exercise
-                    </button>
+                    </a>
                 </div>
                 <div>
-                    <button className="smallbtn btn-ex">SQL</button>
-                    <button className="smallbtn btn-ex">Python</button>
-                    <button className="smallbtn btn-ex">PHP</button>
-                    <button className="smallbtn btn-ex">jQuery</button>
-                    <button className="smallbtn btn-ex">Java</button>
-                    <button className="smallbtn btn-ex">C++</button>
-                    <button className="smallbtn btn-ex">C#</button>
+                    <a
+                        className="smallbtn btn-ex"
+                        href="https://www.w3schools.com/sql/sql_exercises.asp"
+                    >
+                        SQL
+                    </a>
+                    <a
+                        className="smallbtn btn-ex"
+                        href="https://www.w3schools.com/python/python_exercises.asp"
+                    >
+                        Python
+                    </a>
+                    <a
+                        className="smallbtn btn-ex"
+                        href="https://www.w3schools.com/php/php_exercises.asp"
+                    >
+                        PHP
+                    </a>
+                    <a
+                        className="smallbtn btn-ex"
+                        href="https://www.w3schools.com/jquery/jquery_exercises.asp"
+                    >
+                        jQuery
+                    </a>
+                    <a
+                        className="smallbtn btn-ex"
+                        href="https://www.w3schools.com/java/java_exercises.asp"
+                    >
+                        Java
+                    </a>
+                    <a
+                        className="smallbtn btn-ex"
+                        href="https://www.w3schools.com/cpp/cpp_exercises.asp"
+                    >
+                        C++
+                    </a>
+                    <a
+                        className="smallbtn btn-ex"
+                        href="https://www.w3schools.com/cs/cs_exercises.asp"
+                    >
+                        C#
+                    </a>
                 </div>
             </div>
         </div>

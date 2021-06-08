@@ -5,7 +5,9 @@ export default function Getstarted() {
         <div className="getstart">
             <h1>Kickstart your career</h1>
             <h2>Get certified by completing a course</h2>
-            <button className="startbtn">Get Started</button>
+            <a className="startbtn" href="https://courses.w3schools.com/">
+                Get Started
+            </a>
         </div>
     );
 }

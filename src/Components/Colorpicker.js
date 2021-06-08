@@ -7,7 +7,7 @@ export default function Colorpicker() {
             <div className="colorheading">
                 <h1>Color Picker</h1>
                 <p>W3Schools' famous color picker</p>
-                <a href="#color">
+                <a href="https://www.w3schools.com/colors/colors_picker.asp">
                     <img src={Color} alt="no img" />
                 </a>
             </div>

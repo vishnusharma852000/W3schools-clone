@@ -107,7 +107,12 @@ export default function Iframecontent() {
                 </div>
             </div>
             <div className="learnhowbtn">
-                <button className="howtobtn">LEARN HOW TO</button>
+                <a
+                    className="howtobtn"
+                    href="https://www.w3schools.com/howto/default.asp"
+                >
+                    LEARN HOW TO
+                </a>
             </div>
         </div>
     );

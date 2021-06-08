@@ -12,11 +12,16 @@ export default function Webtemplates() {
                 </p>
             </div>
             <div className="templateimage">
-                <a href="#template">
+                <a href="https://www.w3schools.com/w3css/w3css_templates.asp">
                     <img src={W3template} alt="nothing" />
                 </a>
             </div>
-            <button className="templatebtn">BROWSE TEMPLATES</button>
+            <a
+                className="templatebtn"
+                href="https://www.w3schools.com/w3css/w3css_templates.asp"
+            >
+                BROWSE TEMPLATES
+            </a>
         </div>
     );
 }

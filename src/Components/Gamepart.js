@@ -7,11 +7,16 @@ export default function Gamepart() {
             <div className="game">
                 <h1>Code Game</h1>
                 <h2>Help the Lynx collect pines coins!</h2>
-                <a href="#game">
+                <a href="https://www.w3schools.com/codegame/index.html">
                     <img src={w3lynx} alt="no img" />
                 </a>
                 <br />
-                <button className="gamebutton">Play Game</button>
+                <a
+                    className="gamebutton"
+                    href="https://www.w3schools.com/codegame/index.html"
+                >
+                    Play Game
+                </a>
             </div>
         </div>
     );

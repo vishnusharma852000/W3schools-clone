@@ -9,15 +9,30 @@ export default function W3schoolscontent() {
                 <div className="leftfirst">
                     <h1>HTML</h1>
                     <p>The language for building web pages</p>
-                    <button className="learnhtml">Learn HTML</button>
+                    <a
+                        className="learnhtml"
+                        href="https://www.w3schools.com/html/default.asp"
+                    >
+                        Learn HTML
+                    </a>
                     <br />
-                    <button className="refhtml">HTML Reference</button>
+                    <a
+                        className="refhtml"
+                        href="https://www.w3schools.com/tags/default.asp"
+                    >
+                        HTML Reference
+                    </a>
                 </div>
                 <div className="rightfirst">
                     <div className="htmlprog">
                         <h1 className="programheading">HTML Example:</h1>
                         <div className="example"></div>
-                        <button className="try">Try Yourself</button>
+                        <a
+                            className="try"
+                            href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default"
+                        >
+                            Try Yourself
+                        </a>
                     </div>
                 </div>
             </div>
@@ -28,15 +43,30 @@ export default function W3schoolscontent() {
                 <div className="secondleft">
                     <h1>CSS</h1>
                     <p>The language for styling web pages</p>
-                    <button className="learncss">Learn CSS</button>
+                    <a
+                        className="learncss"
+                        href="https://www.w3schools.com/css/default.asp"
+                    >
+                        Learn CSS
+                    </a>
                     <br />
-                    <button className="refcss">CSS Reference</button>
+                    <a
+                        className="refcss"
+                        href="https://www.w3schools.com/cssref/default.asp"
+                    >
+                        CSS Reference
+                    </a>
                 </div>
                 <div className="secondright">
                     <div className="cssprog">
                         <h1 className="programheading">CSS Example:</h1>
                         <div className="example"></div>
-                        <button className="try">Try Yourself</button>
+                        <a
+                            className="try"
+                            href="https://www.w3schools.com/css/tryit.asp?filename=trycss_default"
+                        >
+                            Try Yourself
+                        </a>
                     </div>
                 </div>
             </div>
@@ -47,15 +77,30 @@ export default function W3schoolscontent() {
                 <div className="thirdleft">
                     <h1>Javascript</h1>
                     <p>The language for programming web pages</p>
-                    <button className="learnjs">Learn Javascript</button>
+                    <a
+                        className="learnjs"
+                        href="https://www.w3schools.com/js/default.asp"
+                    >
+                        Learn Javascript
+                    </a>
                     <br />
-                    <button className="refjs">Javascript Reference</button>
+                    <a
+                        className="refjs"
+                        href="https://www.w3schools.com/jsref/default.asp"
+                    >
+                        Javascript Reference
+                    </a>
                 </div>
                 <div className="thirdright">
                     <div className="jsprog">
                         <h1 className="programheading">Javascript Example:</h1>
                         <div className="example"></div>
-                        <button className="try">Try Yourself</button>
+                        <a
+                            className="try"
+                            href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_default"
+                        >
+                            Try Yourself
+                        </a>
                     </div>
                 </div>
             </div>
@@ -66,15 +111,30 @@ export default function W3schoolscontent() {
                 <div className="fourthleft">
                     <h1>PYTHON</h1>
                     <p>The popular programming language</p>
-                    <button className="learnpy">Learn PYTHON</button>
+                    <a
+                        className="learnpy"
+                        href="https://www.w3schools.com/python/default.asp"
+                    >
+                        Learn Python
+                    </a>
                     <br />
-                    <button className="refpy">PYTHON Reference</button>
+                    <a
+                        className="refpy"
+                        href="https://www.w3schools.com/python/python_reference.asp"
+                    >
+                        Python Reference
+                    </a>
                 </div>
                 <div className="fourthright">
                     <div className="pyprog">
                         <h1 className="programheading">Python Example:</h1>
                         <div className="example"></div>
-                        <button className="try">Try Yourself</button>
+                        <a
+                            className="try"
+                            href="https://www.w3schools.com/python/trypython.asp?filename=demo_indentation"
+                        >
+                            Try Yourself
+                        </a>
                     </div>
                 </div>
             </div>
@@ -85,15 +145,30 @@ export default function W3schoolscontent() {
                 <div className="fifthleft">
                     <h1>SQL</h1>
                     <p>The language for accessing databases</p>
-                    <button className="learnsql">Learn SQL</button>
+                    <a
+                        className="learnsql"
+                        href="https://www.w3schools.com/sql/default.asp"
+                    >
+                        Learn SQL
+                    </a>
                     <br />
-                    <button className="refsql">SQL Reference</button>
+                    <a
+                        className="refsql"
+                        href="https://www.w3schools.com/sql/sql_ref_keywords.asp"
+                    >
+                        SQL Reference
+                    </a>
                 </div>
                 <div className="fifthright">
                     <div className="sqlprog">
                         <h1 className="programheading">SQL Example:</h1>
                         <div className="example"></div>
-                        <button className="try">Try Yourself</button>
+                        <a
+                            className="try"
+                            href="https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_where"
+                        >
+                            Try Yourself
+                        </a>
                     </div>
                 </div>
             </div>

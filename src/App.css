@@ -4,6 +4,9 @@
     font-family: sans-serif;
     font-weight: 700;
 }
+a {
+    text-decoration: none;
+}
 
 button:hover {
     cursor: pointer;
@@ -52,6 +55,7 @@ button:hover {
 }
 .btn-pv {
     font-size: 18px;
+    color: black;
     border: 2px solid white;
     background-color: white;
     border-radius: 30px;
@@ -78,10 +82,12 @@ button:hover {
 }
 .icon {
     font-size: 20px;
-    padding: 0px 15px;
+    margin: 0px 10px;
 }
-svg {
-    padding: 0px 10px;
+.blackicon {
+    cursor: pointer;
+    color: black;
+    margin: 0px 10px;
 }
 
 /* navbar css end */
@@ -117,6 +123,7 @@ svg {
     padding: 10px;
 }
 .learnhtml {
+    display: inline-block;
     font-size: 18px;
     border: 2px solid #04aa6d;
     background-color: #04aa6d;
@@ -126,9 +133,11 @@ svg {
     margin: 8px 8px;
 }
 .refhtml {
+    display: inline-block;
     font-size: 18px;
     border: 2px solid white;
     background-color: white;
+    color: black;
     border-radius: 30px;
     padding: 10px 30px;
     margin: 8px 8px;
@@ -161,6 +170,7 @@ svg {
     border-left: 5px solid #04aa6d;
 }
 .try {
+    display: inline-block;
     font-size: 16px;
     border: 2px solid #04aa6d;
     background-color: #04aa6d;
@@ -168,6 +178,7 @@ svg {
     border-radius: 40px;
     padding: 10px 40px;
     margin: 16px 16px;
+    line-height: 25px;
 }
 
 /* main page program example css end  */
@@ -197,6 +208,7 @@ svg {
     padding: 10px;
 }
 .learncss {
+    display: inline-block;
     font-size: 18px;
     border: 2px solid #04aa6d;
     background-color: #04aa6d;
@@ -206,6 +218,7 @@ svg {
     margin: 8px 8px;
 }
 .refcss {
+    display: inline-block;
     font-size: 18px;
     color: white;
     border: 2px solid black;
@@ -253,6 +266,7 @@ svg {
     padding: 10px;
 }
 .learnjs {
+    display: inline-block;
     font-size: 18px;
     border: 2px solid #04aa6d;
     background-color: #04aa6d;
@@ -262,6 +276,7 @@ svg {
     margin: 8px 8px;
 }
 .refjs {
+    display: inline-block;
     font-size: 18px;
     color: white;
     border: 2px solid black;
@@ -309,6 +324,7 @@ svg {
     padding: 10px;
 }
 .learnpy {
+    display: inline-block;
     font-size: 18px;
     border: 2px solid #04aa6d;
     background-color: #04aa6d;
@@ -318,9 +334,11 @@ svg {
     margin: 8px 8px;
 }
 .refpy {
+    display: inline-block;
     font-size: 18px;
     border: 2px solid white;
     background-color: white;
+    color: black;
     border-radius: 30px;
     padding: 10px 30px;
     margin: 8px 8px;
@@ -364,6 +382,7 @@ svg {
     padding: 10px;
 }
 .learnsql {
+    display: inline-block;
     font-size: 18px;
     border: 2px solid #04aa6d;
     background-color: #04aa6d;
@@ -373,6 +392,7 @@ svg {
     margin: 8px 8px;
 }
 .refsql {
+    display: inline-block;
     font-size: 18px;
     color: white;
     border: 2px solid black;
@@ -438,6 +458,7 @@ svg {
     color: rgba(0, 0, 0, 0.6);
 }
 .btn-sm {
+    display: inline-block;
     font-size: 18px;
     border: 2px solid black;
     background-color: black;
@@ -490,6 +511,7 @@ svg {
 }
 .position {
     width: 270px;
+    color: black;
     height: 110px;
     border-radius: 5px;
     margin: 20px auto;
@@ -607,6 +629,7 @@ svg {
     border-radius: 5px;
     margin: 20px auto;
     cursor: pointer;
+    color: black;
 }
 .machinelearn {
     background-color: lightpink;
@@ -669,6 +692,7 @@ svg {
     padding-bottom: 30px;
 }
 .gamebutton {
+    display: inline-block;
     font-size: 18px;
     border: 2px solid #282a35;
     background-color: #282a35;
@@ -695,6 +719,7 @@ svg {
     padding: 20px;
 }
 .btn-ex {
+    display: inline-block;
     font-size: 16px;
     border: 2px solid #04aa6d;
     background-color: #04aa6d;
@@ -738,6 +763,7 @@ svg {
     margin: 25px;
 }
 .templatebtn {
+    display: inline-block;
     font-size: 16px;
     border: 2px solid #282a35;
     background-color: #282a35;
@@ -764,6 +790,7 @@ svg {
     padding: 30px;
 }
 .startbtn {
+    display: inline-block;
     font-size: 16px;
     border: 2px solid #04aa6d;
     background-color: #04aa6d;
@@ -795,6 +822,7 @@ svg {
 }
 
 .howtobtn {
+    display: inline-block;
     padding: 20px 300px;
     font-size: 16px;
     color: white;
@@ -890,6 +918,7 @@ svg {
     background-color: #282a35;
 }
 .footerbutton {
+    display: inline-block;
     background-color: whitesmoke;
     border: 2px solid whitesmoke;
     border-radius: 5px;
@@ -948,6 +977,11 @@ svg {
 .divblock5 {
     text-align: center;
     padding: 15px;
+}
+.whiteicon {
+    cursor: pointer;
+    color: white;
+    margin: 0px 10px;
 }
 .footerbtn {
     font-size: 15px;

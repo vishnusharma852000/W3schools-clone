@@ -7,21 +7,55 @@ export default function Footer() {
             <div className="footercontent">
                 <div className="divblock1">
                     <div className="content1">
-                        <button className="footerbutton">COURSES</button>
-                        <button className="footerbutton">QUIZZES</button>
-                        <button className="footerbutton">EXERCISE</button>
+                        <a
+                            className="footerbutton"
+                            href="https://courses.w3schools.com/"
+                        >
+                            COURSES
+                        </a>
+                        <a
+                            className="footerbutton"
+                            href="https://www.w3schools.com/quiztest/default.asp"
+                        >
+                            QUIZZES
+                        </a>
+                        <a
+                            className="footerbutton"
+                            href="https://www.w3schools.com/html/html_exercises.asp"
+                        >
+                            EXERCISE
+                        </a>
                     </div>
                     <div className="content2">
-                        <a href="#forum">FORUM</a>
+                        <a href="https://w3schools.invisionzone.com/">FORUM</a>
                         <span> | </span>
-                        <a href="#about">ABOUT</a>
+                        <a href="https://www.w3schools.com/about/default.asp">
+                            ABOUT
+                        </a>
                     </div>
                 </div>
                 <div className="divblock2">
                     <div className="social">
-                        <FontAwesomeIcon icon={["fab", "facebook-square"]} />
-                        <FontAwesomeIcon icon={["fab", "instagram"]} />
-                        <FontAwesomeIcon icon={["fab", "linkedin"]} />
+                        <a
+                            href="https://www.facebook.com/w3schoolscom/"
+                            className="whiteicon"
+                        >
+                            <FontAwesomeIcon
+                                icon={["fab", "facebook-square"]}
+                            />
+                        </a>
+                        <a
+                            href="https://www.instagram.com/w3schools.com_official/"
+                            className="whiteicon"
+                        >
+                            <FontAwesomeIcon icon={["fab", "instagram"]} />
+                        </a>
+                        <a
+                            href="https://www.linkedin.com/company/w3schools.com/"
+                            className="whiteicon"
+                        >
+                            <FontAwesomeIcon icon={["fab", "linkedin"]} />
+                        </a>
                     </div>
                 </div>
                 <div className="divblock3">
@@ -39,12 +73,17 @@ export default function Footer() {
                     </p>
                 </div>
                 <div className="divblock4">
-                    <FontAwesomeIcon
-                        icon={["far", "thumbs-up"]}
-                    ></FontAwesomeIcon>
+                    <a href="#thumbsup">
+                        <FontAwesomeIcon
+                            className="whiteicon"
+                            icon={["far", "thumbs-up"]}
+                        ></FontAwesomeIcon>
+                    </a>
                 </div>
                 <div className="divblock5">
-                    <button className="footerbtn">W3SCHOOLS SHOP</button>
+                    <a className="footerbtn" href="https://shop.w3schools.com/">
+                        W3SCHOOLS SHOP
+                    </a>
                 </div>
             </div>
         </div>

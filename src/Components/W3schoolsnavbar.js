@@ -9,7 +9,7 @@ export default function W3schoolsnavbar() {
                 {/* leftnavbar */}
 
                 <div class="leftnav">
-                    <a href="#logo">
+                    <a href="https://www.w3schools.com/">
                         <img src={w3schools} alt="no logo" class="logo" />
                     </a>
                     <ul>
@@ -34,7 +34,7 @@ export default function W3schoolsnavbar() {
                     </ul>
                 </div>
 
-                {/* cneter */}
+                {/* center */}
 
                 <div class="center"></div>
 
@@ -42,13 +42,26 @@ export default function W3schoolsnavbar() {
 
                 <div class="rightnav">
                     <div class="icon">
-                        <FontAwesomeIcon icon="circle" />
-                        <FontAwesomeIcon icon="globe-asia" />
-                        <FontAwesomeIcon icon="search" />
+                        <a href="#theme" className="blackicon">
+                            <FontAwesomeIcon icon="circle" />
+                        </a>
+                        <a href="globallang" className="blackicon">
+                            <FontAwesomeIcon icon="globe-asia" />
+                        </a>
+                        <a href="search" className="blackicon">
+                            <FontAwesomeIcon icon="search" />
+                        </a>
                     </div>
                     <div class="btn">
-                        <button class="btn-pv">Paid Courses</button>
-                        <button class="btn-li">Log In</button>
+                        <a class="btn-pv" href="https://courses.w3schools.com/">
+                            Paid Courses
+                        </a>
+                        <a
+                            class="btn-li"
+                            href="https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fmy-learning.w3schools.com"
+                        >
+                            Log In
+                        </a>
                     </div>
                 </div>
             </div>
